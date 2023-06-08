@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 10px;
+  min-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.251);
+}
+
+h1 {
+  color: rgb(245, 139, 1);
+  text-align: center;
+}
+
+#welcome-el {
+  color: rgb(41, 61, 55);
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  color: rgb(17, 7, 7);
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border: 2px solid rgb(1, 109, 50);
+}
+
+input:hover {
+  background-color: rgba(8, 151, 247, 0.171);
+}
+
+button {
+  border: 1px solid green;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(18, 124, 23);
+  transition: 0.5s;
+}
+
+button:hover {
+  color: black;
+  background-color: rgba(58, 216, 216, 0.5);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+#delete-btn {
+  color: green;
+  border: 2px solid green;
+  background-color: transparent;
+}
+
+#delete-btn:hover {
+  border: 2px solid black;
+  background-color: rgb(51, 3, 3);
+  color: white;
+  transition: all 0.3s;
+}
+
+#box {
+  margin-top: 15px;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(10, 167, 101);
+}
+
+.box-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: calc(-45%);
+  text-align: center;
+  cursor: pointer;
+}
+ul {
+  display: inline;
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
